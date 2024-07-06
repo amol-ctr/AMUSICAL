@@ -1,4 +1,4 @@
-# spotify_clone_using_JS
+# Music_Player_named_AMUSICAL_using_JS
 
 This is the explaination of the project.
 
