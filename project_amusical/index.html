@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMUSICAL: Play Music For Free</title>
+    <link rel="icon" type="image/x-icon" href="../img/music_icon_new.avif">
+</head>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" media="screen and (max-width:1050px) and (min-width:430px)" href="../css/phone.css">
+<link rel="stylesheet" media="screen and (max-width:429px)" href="../css/phone2.css">
+<body>
+    <nav id="navbar">
+        <ul>
+            <li class="nav-items"><img src="../img/music_icon_new.avif" alt="amusical" id="Amusical-logo"></li>
+            <li class="nav-items"><a href="#"><h2>Home</h2></a></li>
+            <li class="nav-items"><a href="#"><h2>Your Library</h2></a></li>
+            <li class="nav-items"><a href="#"><h2> <img src="../img/magnifying-glass.png" alt="" id="magnifying-glass">  Search</h2></a></li>
+            <li class="nav-items"><a href="#"><h2>Artists</h2></a></li>
+        </ul>
+    </nav>
+
+    
+    <div class="container">
+        <div class="songlist">
+            <h1>Best Of NCS- No Copyright Sounds</h1>
+
+            <div class="song-item">
+                <span class="songlistplay">
+                    <img src="../songs_cover/1.png" alt="">
+                    <span class="songname">Love Me like you do</span> 
+                    <span class="timestamp">04:10<i class="fa-regular fa fa-circle-pause songitemplay"></i></span>
+                </span>
+            </div>
+
+            <div class="song-item">
+                <span class="songlistplay">
+                    <img src="../songs_cover/2.png" alt="">
+                    <span class="songname">Closer</span> 
+                    <span class="timestamp">03:25<i class="fa-regular fa fa-circle-play songitemplay"></i></span>
+                </span>
+            </div>
+
+            <div class="song-item">
+                <span class="songlistplay">
+                    <img src="../songs_cover/3.png" alt="">
+                    <span class="songname">Perfect</span> 
+                    <span class="timestamp">04:23<i class="fa-regular fa fa-circle-play songitemplay"></i></span>
+                </span>
+            </div>
+
+            <div class="song-item">
+                <span class="songlistplay">
+                    <img src="../songs_cover/4.png" alt="">
+                    <span class="songname">Despacito</span> 
+                    <span class="timestamp">04:41<i class="fa-regular fa fa-circle-play songitemplay"></i></span>
+                </span>
+            </div>
+
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="progress-bar" min="0" value="0" max="100">
+        <div class="songinfo">
+            <img src="../img/song_gif.gif" alt="" id="gif">
+            <span id="song-name"> Love Me Like You Do</span>
+            <span class="icons">
+                <i class="fa-solid fa-3x fa-backward-step" id="previous-button"></i>
+                <i class="fa-regular fa-3x fa-circle-play" id="play-button"></i>
+                <i class="fa-solid fa-3x fa-forward-step" id="next-button"></i>
+            </span>
+        </div>
+    </div>
+    <script src="../js/script.js"></script>
+    <script src="https://kit.fontawesome.com/367a601621.js" crossorigin="anonymous"></script>
+</body>
+</html>
